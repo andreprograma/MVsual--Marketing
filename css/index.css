@@ -1,0 +1,206 @@
+body {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 0;
+  font-family: 'Inter', sans-serif;
+  color: #1A1A1A;
+  background-color: #ffffff;
+}
+
+header {
+
+  background-color: #39778c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0
+}
+
+header img {
+  height: 40px;
+  cursor: pointer;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+/* titulo da solução */
+.s{
+  text-decoration: underline; /* Sublinhado */
+  text-decoration-thickness: 5px; /* Espessura da linha de sublinhado (2px) */
+  text-underline-offset: 5px; /* Espaço entre o texto e o sublinhado (3px) */
+  line-height: 3px; /* Altura da linha (1.5 vezes o tamanho da fonte) */
+  border-bottom: 5px;
+  border-radius: 10rem; /* Borda arredondada com raio de 10px */
+  text-decoration: underline #39778c;
+  text-decoration-thickness: 5px;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Cria 3 colunas de tamanho igual */
+  grid-template-rows: auto; /* Define a ltura da grade automaticamente */
+}
+
+.grid-item {
+  /* Estilos para os itens da grade */
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-color: transparent;
+}
+.grid-item1{
+  justify-content: start;
+}
+
+.destaque{
+  font-weight:bold;
+}
+
+#logo{
+  margin: 0;
+  padding: 0;
+  width: 5rem;
+  height: 5rem;
+}
+.titulos,
+.section-solucoes{
+  justify-items: center;
+  margin-bottom: 3rem, black;
+}
+.container img {
+  /* Estilos para os itens da grade */
+  border: 1px solid black;
+  padding: 10px;
+  justify-items: center;
+  text-align: center;
+  border-color: transparent;
+  max-width: 220px;
+  justify-content: center;
+}
+
+#proposta, img{
+  display: grid; /*layout flex */
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  color: white;
+  
+}
+.container .grid-item {
+  justify-content: start;
+  background-color: black;
+  color: antiquewhite;
+
+}
+
+.marketing,
+.section-sobre, img{
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    padding: 10px;
+
+}
+#sobre, img{
+  justify-content: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.btn-login {
+  background: white;
+  color: #003A3C;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #F9F9F9;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+}
+
+.hero-text h1 span {
+  color: #00B9AE;
+}
+
+.hero-text p {
+  margin-top: 1rem;
+}
+
+.hero-img img {
+  max-width: 300px;
+}
+
+/*--seccion falta formatar--*/
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.sobre {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sobre img {
+  max-width: 300px;
+}
+
+.sobre-text h2 span {
+  color: #00B9AE;
+
+}
+
+
+.cta {
+  background-color: #003A3C;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.cta button {
+  background: #00B9AE;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #003A3C;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .hero, .sobre {
+    flex-direction: column;
+    text-align: center;
+  }
+}
