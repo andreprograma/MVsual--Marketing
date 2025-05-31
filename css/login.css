@@ -1,0 +1,84 @@
+/* login.css */
+
+.auth-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .auth-left {
+    background-color: #3cc5c0;
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* divisão com borda ou gap */
+  #login {
+    gap: 3px;
+  }
+  
+  .auth-right {
+    flex: 1;
+    padding: 0px 0px;
+    background-color: #fff;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 180px;
+    margin-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 20px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #3cc5c0;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #2db1ac;
+  }
+  
+  .auth-switch {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .auth-switch a {
+    color: #3cc5c0;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .section-divider {
+    border-bottom: 2px solid #000; /* linha preta */
+    width: 100%;
+    margin: 30px 0; /* espaçamento acima e abaixo */
+  }
+  

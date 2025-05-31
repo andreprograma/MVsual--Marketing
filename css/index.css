@@ -1,6 +1,7 @@
 body {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  min-width: 600px;
+  margin-left: 30rem;
+  margin-right: 30rem;
   margin-top: 0;
   font-family: 'Inter', sans-serif;
   color: #1A1A1A;
@@ -23,7 +24,7 @@ header img {
 }
 
 nav a {
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0 1rem;
   text-decoration: none;
 }
@@ -106,6 +107,9 @@ nav a {
     padding: 10px;
 
 }
+.marketing {
+  background-color: #36454e;
+}
 #sobre, img{
   justify-content: center;
   justify-content: center;
@@ -119,6 +123,7 @@ nav a {
   padding: 0.5rem 1rem;
   font-weight: bold;
   cursor: pointer;
+
 }
 
 .hero {
@@ -147,6 +152,11 @@ nav a {
 }
 
 .hero-img img {
+  padding: 0;
+  margin-right: 0;
+  justify-items: end;
+  justify-content: end;
+  background-color: #36454e;
   max-width: 300px;
 }
 
@@ -192,6 +202,7 @@ nav a {
 }
 
 footer {
+  min-width: 600px;
   text-align: center;
   padding: 1rem;
   background: #003A3C;
