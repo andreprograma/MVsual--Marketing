@@ -1,32 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  min-width: 600px;
-  margin-left: 30rem;
-  margin-right: 30rem;
-  margin-top: 0;
+  width: 100%;
+  min-width: 320px;
   font-family: 'Inter', sans-serif;
   color: #1A1A1A;
   background-color: #ffffff;
 }
 
 header {
-
-  background-color: #39778c;
+  width: 100%;
+  background-color: #084244;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  margin: 0
+  padding: 0.7rem 2rem;
 }
 
 header img {
-  height: 40px;
+  height: 70px;
+  width: auto;
   cursor: pointer;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+}
+
 nav a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin: 0 1rem;
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00D2C6;
 }
 
 /* titulo da solução */
@@ -65,8 +80,8 @@ nav a {
 #logo{
   margin: 0;
   padding: 0;
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
 }
 .titulos,
 .section-solucoes{
@@ -110,23 +125,41 @@ nav a {
     padding: 10px;
 
 }
+
 .marketing {
   background-color: #36454e;
 }
+
 #sobre, img{
   justify-content: center;
   justify-content: center;
   max-width: 100%;
 }
+
 .btn-login {
-  background: white;
-  color: #003A3C;
-  border: none;
+  background-color: transparent;
+  border: 2px solid white;
   border-radius: 20px;
   padding: 0.5rem 1rem;
   font-weight: bold;
   cursor: pointer;
+  margin: 0 0.5rem;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
 
+.btn-login a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-login:hover a {
+  color: #084244;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: #084244;
 }
 
 .hero {
@@ -217,4 +250,8 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+}
+
+span {
+  color: #00D2C6;
 }
