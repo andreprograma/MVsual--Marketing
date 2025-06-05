@@ -207,6 +207,102 @@ body {
   line-height: 1.5;
 }
 
+/* === quinta seção === */
+.fifth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  padding: 100px 60px;
+  background-color: #000;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.pilares-texto {
+  max-width: 350px;
+}
+
+.pilares-texto h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.pilares-texto p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.botao {
+  background-color: #004d4d;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #006666;
+}
+
+.pilares-conteudo h3 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.pilares-conteudo h3 span {
+  color: #00c0c0;
+}
+
+.cards-pilares {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.pilar {
+  text-align: center;
+}
+
+.pilar img {
+  width: 150px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.pilar p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+    .pilares {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .pilares-conteudo {
+      text-align: center;
+    }
+
+    .cards-pilares {
+      justify-content: center;
+    }
+}
+
+
+/* === sexta seção === */
+
+
+
 
 .grid-container {
   display: grid;
