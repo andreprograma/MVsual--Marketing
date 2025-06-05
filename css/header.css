@@ -10,10 +10,11 @@ header {
 }
 
 
-.logo {
-  max-height: 130px;
+.logo-header {
+  max-height: 160px;
   height: auto;
   width: auto;
+  margin-bottom: -15px;
   object-fit: contain;
 }
 

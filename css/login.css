@@ -34,8 +34,9 @@
 }
   
 .logo {
-  width: 180px;
-  margin-top: 20px;
+  width: 400px !important;
+  height: auto;
+  object-fit: contain !important;
 }
   
 form {

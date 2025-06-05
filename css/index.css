@@ -330,6 +330,7 @@ body {
 .botao-whatsapp {
   background-color: white;
   color: #004d4d;
+  font-size: 1.2rem;
   text-decoration: none;
   padding: 12px 22px;
   border-radius: 30px;
