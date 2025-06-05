@@ -300,7 +300,74 @@ body {
 
 
 /* === sexta seção === */
+.sixth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 280px;
+  padding: 80px 60px;
+  background-color: #004d4d;
+  color: white;
+  flex-wrap: wrap;
+}
 
+.sixth-texto {
+  max-width: 450px;
+}
+
+.sixth-texto h2 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 18px;
+}
+
+.sixth-texto p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.botao-whatsapp {
+  background-color: white;
+  color: #004d4d;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+}
+
+.botao-whatsapp img {
+  width: 20px;
+  height: 20px;
+}
+
+.botao-whatsapp:hover {
+  background-color: #e0e0e0;
+}
+
+.sixth-imagem img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .sixth-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sixth-imagem img {
+    width: 280px;
+  }
+}
 
 
 
