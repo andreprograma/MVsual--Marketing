@@ -181,8 +181,31 @@ body {
   }
 }
 
+/* === quarta seção === */
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
 
+.card {
+  max-width: 300px;
+  text-align: center;
+}
 
+.card img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
 
 
 .grid-container {
