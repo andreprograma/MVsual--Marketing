@@ -111,7 +111,7 @@ body {
 }
 
 .lado-imagem {
-  flex: 1;
+  flex: 1.5;
   height: auto;
   min-width: 300px;
   display: flex;
@@ -132,7 +132,7 @@ body {
 
 .lado-texto {
   flex: 1;
-  padding: 40px;
+  padding: 4px;
 }
 
 .lado-texto h2 {
