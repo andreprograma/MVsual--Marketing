@@ -76,6 +76,10 @@
     font-size: 14px;
     margin-top: 10px;
   }
+
+  .crieSuaConta{
+    text-align: center;
+  }
   
   .auth-switch a {
     color: #3cc5c0;

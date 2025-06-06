@@ -23,18 +23,18 @@
       <img src="/media/icons/LOGO-SEM-FUNDO.png" alt="MVisual Marketing" class="logo">
     </div>
     <div class="auth-right">
-      <h2>Crie sua Conta</h2>
+      <h2 class="crieSuaConta">Crie sua Conta</h2>
       <div class="social-login">
-        <button>Entre com o Google</button>
-        <button>Entre com o Facebook</button>
+        <button class="alternativa-entrada" onclick="window.location.href='/pages/index.html'">Entre com o Google</button>
+          <div class="divider">— OU —</div>
+        <button class="alternativa-entrada" onclick="window.location.href='/pages/index.html'">Entre com o Facebook</button>
       </div>
-      <div class="divider">— OU —</div>
       <form>
         <input type="text" placeholder="Full Name" required>
         <input type="email" placeholder="Email" required>
         <input type="password" placeholder="Password" required>
-        <button type="submit" class="btn">Criar Conta</button>
-        <p class="auth-switch">Já possui uma conta? <a href="#login">Login</a></p>
+        <a href="/pages/indexLogDefault.html" class="btn-link">Criar Conta</a> 
+        <p class="auth-switch">Já possui uma conta? <a href="/pages/login.html">Login</a></p>
       </form>
     </div>
 </section>

@@ -6,19 +6,6 @@
   border-top-right-radius: 30px;
 }
 
-.rodape-links {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-
-.rodape-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-}
-
 .rodape-contato {
   margin-bottom: 20px;
 }

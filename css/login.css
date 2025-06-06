@@ -54,10 +54,12 @@ input[type="password"] {
   font-size: 16px;
   outline: none;
 }
-  
-.btn {
+
+ .btn-link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
   background-color: #009999;
-  border: none;
   color: white;
   padding: 12px;
   font-weight: bold;
@@ -65,6 +67,11 @@ input[type="password"] {
   cursor: pointer;
   transition: background 0.3s;
 }
+
+.btn-link:hover {
+  background-color: #007777;
+}
+
   
 .btn:hover {
   background-color: #2db1ac;

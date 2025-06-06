@@ -23,6 +23,65 @@ body {
   margin: 0 auto; 
 }
 
+/* Estilo geral do header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #084244; 
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo da logo */
+.logo-header {
+  height: 150px;
+  width: auto;
+}
+
+/* Estilo da navegação */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo do botão de login/cadastro */
+.btn-login {
+  background-color: #ffcb05;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #e0b404;
+}
+
+/* Link dentro do botão */
+.btn-login a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+/* Responsividade básica */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 .text-box {
   flex: 1;
 }
@@ -310,6 +369,10 @@ body {
   color: white;
   flex-wrap: wrap;
 }
+.contato-topo{
+  font-weight: bolder;
+  text-align: center;
+}
 
 .sixth-texto {
   max-width: 450px;
@@ -596,7 +659,6 @@ textarea {
 
 }
 
-
 .cta {
   background-color: #003A3C;
   color: white;
@@ -621,6 +683,32 @@ footer {
   padding: 1rem;
   background: #003A3C;
   color: white;
+}
+
+.rodape {
+  background-color: #002f2f;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+.rodape-links {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.rodape-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.rodape-links a:hover {
+  color: #cccccc;
 }
 
 @media (max-width: 768px) {
