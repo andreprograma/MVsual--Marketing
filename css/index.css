@@ -685,24 +685,71 @@ span {
   max-width: 600px;
 }
 
-/* Carrossel */
-.carousel-container {
-  width: 90%;
-  margin: 40px auto;
-  overflow: hidden;
-  border-radius: 20px;
-}
-
-.carousel {
-  gap: 30px;
+.testemunhos-container {
   display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 17%;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 30px;
+  padding: 50px;
+  background-color: #f5f5f5;
 }
 
-.carousel img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+.testemunhos-container img {
+  height: 350px;
+  width: 270px;
   flex-shrink: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.testemunhos-container img:hover {
+  transform: scale(1.5);
+}
+
+/* Scrollbar visível em desktop */
+.testemunhos-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.testemunhos-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.estudo-caso-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f6f6f6;
+  padding: 40px 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn-estudo-caso {
+  background-color: #00c4c4;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.barra-vertical {
+  width: 5px;
+  height: 40px;
+  background-color: #00c4c4;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.texto-estudo-caso {
+  font-size: 16px;
+  color: #333;
+  max-width: 600px;
+  line-height: 1.5;
 }
