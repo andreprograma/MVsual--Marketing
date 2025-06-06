@@ -1,0 +1,52 @@
+.rodape {
+  background-color: #004d4d;
+  color: white;
+  padding: 40px 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.rodape-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.rodape-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.rodape-contato {
+  margin-bottom: 20px;
+}
+
+.newsletter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button {
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+  color: #004d4d;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.copy {
+  font-size: 12px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
