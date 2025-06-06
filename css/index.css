@@ -692,6 +692,7 @@ span {
   gap: 30px;
   padding: 50px;
   background-color: #f5f5f5;
+  justify-content: center;
 }
 
 .testemunhos-container img {
